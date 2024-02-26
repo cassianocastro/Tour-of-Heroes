@@ -33,9 +33,8 @@ li
 
 .search-result li a
 {
-    border-bottom: 1px solid gray;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
+    border: thin solid gray;
+    border-top: none;
     box-sizing: border-box;
 
     color: black;

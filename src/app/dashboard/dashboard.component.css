@@ -5,14 +5,14 @@ h2
 
 .heroes-menu
 {
-    margin: auto;
-    padding: 0;
-
     align-content: flex-start;
     align-items: flex-start;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+
+    margin: auto;
+    padding: 0;
 
     max-width: 1000px;
 }
@@ -23,7 +23,7 @@ a
     border-radius: 2px;
     box-sizing: border-box;
 
-    color: #fff;
+    color: white;
 
     align-self: auto;
     display: inline-block;
@@ -54,5 +54,5 @@ a
 
 a:hover
 {
-    background: #000;
+    background: black;
 }

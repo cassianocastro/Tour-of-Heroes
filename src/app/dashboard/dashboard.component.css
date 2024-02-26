@@ -5,46 +5,51 @@ h2
 
 .heroes-menu
 {
-    padding: 0;
     margin: auto;
+    padding: 0;
+
     max-width: 1000px;
 
-    /* flexbox */
+    align-content: flex-start;
+    align-items: flex-start;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-content: flex-start;
-    align-items: flex-start;
 }
 
 a
 {
     background-color: #3f525c;
     border-radius: 2px;
-    padding: 1rem;
-    font-size: 1.2rem;
-    text-decoration: none;
-    display: inline-block;
-    color: #fff;
-    text-align: center;
-    width: 100%;
-    min-width: 70px;
-    margin: .5rem auto;
     box-sizing: border-box;
 
-    /* flexbox */
-    order: 0;
-    flex: 0 1 auto;
+    color: #fff;
+
     align-self: auto;
+    display: inline-block;
+    flex: 0 1 auto;
+    order: 0;
+
+
+    font-size: 1.2rem;
+
+    margin: .5rem auto;
+    padding: 1rem;
+
+    text-align: center;
+    text-decoration: none;
+
+    min-width: 70px;
+    width: 100%;
 }
 
 @media (min-width: 600px)
 {
     a
     {
-        width: 18%;
         box-sizing: content-box;
+        width: 18%;
     }
 }
 

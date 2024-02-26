@@ -7,16 +7,19 @@ label
 input
 {
     font-size: 1em;
+
     padding: .5rem;
 }
 
 button
 {
-    margin-top: 20px;
     background-color: #eee;
-    padding: 1rem;
     border-radius: 4px;
+
     font-size: 1rem;
+
+    margin-top: 20px;
+    padding: 1rem;
 }
 
 button:hover
@@ -27,6 +30,7 @@ button:hover
 button:disabled
 {
     background-color: #eee;
+
     color: #ccc;
     cursor: auto;
 }

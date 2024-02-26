@@ -8,19 +8,18 @@ h2
     margin: auto;
     padding: 0;
 
-    max-width: 1000px;
-
     align-content: flex-start;
     align-items: flex-start;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-around;
+
+    max-width: 1000px;
 }
 
 a
 {
-    background-color: #3f525c;
+    background: #3f525c;
     border-radius: 2px;
     box-sizing: border-box;
 
@@ -55,5 +54,5 @@ a
 
 a:hover
 {
-    background-color: #000;
+    background: #000;
 }

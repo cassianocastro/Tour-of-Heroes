@@ -1,6 +1,6 @@
 .heroes
 {
-    list-style-type: none;
+    list-style: none;
 
     margin: 0 0 2em 0;
     padding: 0;
@@ -34,7 +34,7 @@ input
 
 .heroes a
 {
-    background-color: #EEE;
+    background: #EEE;
     border-radius: 4px;
 
     color: #333;
@@ -51,19 +51,19 @@ input
 
 .heroes a:hover
 {
-    background-color: #e6e6e6;
+    background: #e6e6e6;
     color: #2c3a41;
 }
 
 .heroes a:active
 {
-    background-color: #525252;
+    background: #525252;
     color: #fafafa;
 }
 
 .heroes .badge
 {
-    background-color:#405061;
+    background:#405061;
     border-radius: 4px 0 0 4px;
     color: white;
 
@@ -76,8 +76,7 @@ input
     padding: 0.8em 0.7em 0 0.7em;
 
     position: relative;
-    left: -1px;
-    top: -4px;
+    inset: -4px auto auto -1px;
 
     height: 1.8em;
     min-width: 16px;
@@ -95,25 +94,24 @@ input
 
 .add-button:hover
 {
-    background-color: #42545C;
+    background: #42545C;
     color: white;
 }
 
 button.delete
 {
-    background-color: white;
+    background: white;
     color:  #525252;
 
     font-size: 1.1rem;
     padding: 1px 10px 3px 10px;
 
     position: absolute;
-    left: 210px;
-    top: 5px;
+    inset: 5px auto auto 210px;
 }
 
 button.delete:hover
 {
-    background-color: #525252;
+    background: #525252;
     color: white;
 }

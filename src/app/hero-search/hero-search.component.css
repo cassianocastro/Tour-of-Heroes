@@ -28,7 +28,7 @@ input:focus
 
 li
 {
-    list-style-type: none;
+    list-style: none;
 }
 
 .search-result li a
@@ -52,7 +52,7 @@ li
 
 .search-result li a:hover
 {
-    background-color: #435A60;
+    background: #435A60;
     color: white;
 }
 

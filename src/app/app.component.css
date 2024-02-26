@@ -5,7 +5,7 @@ h1
 
 nav a
 {
-    background-color: #e8e8e8;
+    background: #e8e8e8;
     border-radius: 4px;
 
     color: #3d3d3d;
@@ -19,12 +19,12 @@ nav a
 
 nav a:hover
 {
-    background-color: #42545C;
+    background: #42545C;
 
     color: white;
 }
 
 nav a.active
 {
-    background-color: black;
+    background: black;
 }

@@ -3,14 +3,13 @@ import { TestBed } from '@angular/core/testing';
 import { InMemoryDataService } from './in-memory-data.service';
 
 describe('InMemoryDataService', () => {
-  let service: InMemoryDataService;
+    let service: InMemoryDataService;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({});
-    service = TestBed.inject(InMemoryDataService);
-  });
+    beforeEach(() => {
+        TestBed.configureTestingModule({});
 
-  it('should be created', () => {
-    expect(service).toBeTruthy();
-  });
+        service = TestBed.inject(InMemoryDataService);
+    });
+
+    it('should be created', () => expect(service).toBeTruthy());
 });

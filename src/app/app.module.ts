@@ -37,7 +37,12 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     bootstrap: [AppComponent]
 })
 
-export class AppModule
+/**
+ *
+ */
+class AppModule
 {
 
 }
+
+export { AppModule };

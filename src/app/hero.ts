@@ -1,5 +1,10 @@
-export interface Hero
+/**
+ *
+ */
+interface Hero
 {
     id: number;
     name: string;
 }
+
+export { Hero };

@@ -9,7 +9,10 @@ import { MessageService } from "../message.service";
     styleUrls: ['./heroes.component.css']
 })
 
-export class HeroesComponent implements OnInit
+/**
+ *
+ */
+class HeroesComponent implements OnInit
 {
 
     //selectedHero?: Hero;
@@ -57,3 +60,5 @@ export class HeroesComponent implements OnInit
         this.heroService.deleteHero(hero.id).subscribe();
     }
 }
+
+export { HeroesComponent };

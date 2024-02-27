@@ -16,7 +16,12 @@ const routes: Routes = [
     exports: [RouterModule]
 })
 
-export class AppRoutingModule
+/**
+ *
+ */
+class AppRoutingModule
 {
 
 }
+
+export { AppRoutingModule };

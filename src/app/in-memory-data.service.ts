@@ -6,7 +6,10 @@ import { Hero } from "./hero";
     providedIn: 'root'
 })
 
-export class InMemoryDataService implements InMemoryDbService
+/**
+ *
+ */
+class InMemoryDataService implements InMemoryDbService
 {
 
     createDb()
@@ -32,3 +35,5 @@ export class InMemoryDataService implements InMemoryDbService
         return heroes.length > 0 ? Math.max(...heroes.map(hero => hero.id)) + 1 : 11;
     }
 }
+
+export { InMemoryDataService };

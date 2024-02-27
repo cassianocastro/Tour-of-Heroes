@@ -10,7 +10,10 @@ import { catchError, map, tap } from 'rxjs/operators';
     providedIn: 'root'
 })
 
-export class HeroService
+/**
+ *
+ */
+class HeroService
 {
 
     private heroesUrl = 'api/heroes';
@@ -108,3 +111,5 @@ export class HeroService
         );
     }
 }
+
+export { HeroService };

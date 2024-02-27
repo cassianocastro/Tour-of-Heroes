@@ -4,7 +4,10 @@ import { Injectable } from '@angular/core';
     providedIn: 'root'
 })
 
-export class MessageService
+/**
+ *
+ */
+class MessageService
 {
 
     messages: string[] = [];
@@ -19,3 +22,5 @@ export class MessageService
         this.messages = [];
     }
 }
+
+export { MessageService };

@@ -6,7 +6,12 @@ import { Component } from '@angular/core';
     styleUrls: ['./app.component.css']
 })
 
-export class AppComponent
+/**
+ *
+ */
+class AppComponent
 {
     title = 'Tour of Heroes';
 }
+
+export { AppComponent };

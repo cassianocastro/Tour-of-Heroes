@@ -10,8 +10,10 @@ import { HeroService } from "../hero.service";
     styleUrls: ['./hero-search.component.css']
 })
 
-
-export class HeroSearchComponent implements OnInit
+/**
+ *
+ */
+class HeroSearchComponent implements OnInit
 {
 
     heroes$!: Observable<Hero[]>;
@@ -36,3 +38,5 @@ export class HeroSearchComponent implements OnInit
         this.searchTerms.next(term);
     }
 }
+
+export { HeroSearchComponent };
